@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
+<meta name="author" content="John Gagliardi" />
+<meta name="description" content="Get in the spotlight" />
+<meta name="keywords" content="John & Melany | ©2012 johngag.com" />
+<title>John & Melany | Gallery</title>
+<link rel="stylesheet" type="text/css" media="all" href="{{ CSS_CDN }}style-0.1.css" />
+<link rel="stylesheet" href="{{ CSS_CDN }}prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<!-- Sortable -->
+<script type="text/javascript" src="{{ JS_CDN }}jquery.quicksand.js"></script>
+<script type="text/javascript" src="{{ JS_CDN }}custom.quicksand.js"></script>
+
+<!-- PrettyPhoto -->
+<script src="{{ JS_CDN }}jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<!-- DropDownMenu -->
+<script type="text/javascript" src="{{ JS_CDN }}menu.js"></script>
+<script type="text/javascript" charset="utf-8">
+var $ = jQuery.noConflict();
+  $(window).load(function() {	
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+
+  });
+</script>
+</head>
+<body>
+<div id="shadow_bg">
+<div id="main_container">
+
+	<a class="show_menu" href="#">menu</a>
+    <a class="hide_menu" href="#">close menu</a>
+	
+    <div class="menu">                                                                   
+        <ul id="main_menu">
+        	<li><a href="/">Home</a></li>
+            <li><a href="/wedding/">Our wedding</a></li>
+            <li><a class="selected" href="/gallery/">Photo Album</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+     </div>
+	
+
+<div id="center_container">
+
+  <div id="header">
+     
+     <div class="title"><a href="index.html">John &amp; Melany</a></div>
+     <div class="description"><span class="swirl_left"><span class="swirl_right">20 october 2012</span></span></div>
+     
+  </div><!-- End of Header-->
+     
+
+  <div class="pages_title">
+  <h2>Our Photo <span>Gallery</span></h2>
+  </div> 
+   
+   <div class="content">
+   
+           <ul class="filter_portfolio">       
+            <li class="segment-1 selected"><a href="#" data-value="all">View all</a></li>
+            <li class="segment-2"><a href="#" data-value="wedding">Wedding</a></li>
+            <li class="segment-3"><a href="#" data-value="ceremony">Ceremony</a></li>
+            <li class="segment-4"><a href="#" data-value="honeymoon">Honeymoon</a></li>
+            <li class="segment-5"><a href="#" data-value="groomsmens">Groomsmens &amp; Bridesmaids</a></li>
+            </ul> 
+
+    <ul class="portfolio_items">
+    
+        <li class="gallery13 ceremony" data-id="id-1">
+        <img src="{{ IMAGES_CDN }}gallery_frame.png" alt="" title="" border="0" class="frame" />
+        <img src="{{ IMAGES_CDN }}gallerythumb1.jpg" alt="" title="" border="0" class="thumb" />
+        <span class="portfolio_caption">
+        <a href="{{ IMAGES_CDN }}slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="{{ IMAGES_CDN }}zoom.png" alt="" title="" border="0" /></a>
+        <a href="#"><img src="{{ IMAGES_CDN }}like.png" alt="" title="" border="0" /></a>
+        </span>  
+        <h3>Happiness is a way of travel</h3>
+        </li>
+        
+        <li class="gallery13 wedding" data-id="id-2">
+        <img src="{{ IMAGES_CDN }}gallery_frame.png" alt="" title="" border="0" class="frame" />
+        <img src="{{ IMAGES_CDN }}gallerythumb2.jpg" alt="" title="" border="0" class="thumb" />
+        <span class="portfolio_caption">
+        <a href="{{ IMAGES_CDN }}slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="{{ IMAGES_CDN }}zoom.png" alt="" title="" border="0" /></a>
+        <a href="#"><img src="{{ IMAGES_CDN }}like.png" alt="" title="" border="0" /></a>
+        </span>  
+        <h3>Two hearts that beats</h3>
+        </li>
+        
+        <li class="gallery13 ceremony" data-id="id-3">
+        <img src="{{ IMAGES_CDN }}gallery_frame.png" alt="" title="" border="0" class="frame" />
+        <img src="{{ IMAGES_CDN }}gallerythumb3.jpg" alt="" title="" border="0" class="thumb" />
+        <span class="portfolio_caption">
+        <a href="{{ IMAGES_CDN }}slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="{{ IMAGES_CDN }}zoom.png" alt="" title="" border="0" /></a>
+        <a href="#"><img src="{{ IMAGES_CDN }}like.png" alt="" title="" border="0" /></a>
+        </span>  
+        <h3>Your hands your hearts</h3>
+        </li>
+        
+        
+        <li class="gallery13 wedding" data-id="id-4">
+        <img src="{{ IMAGES_CDN }}gallery_frame.png" alt="" title="" border="0" class="frame" />
+        <img src="{{ IMAGES_CDN }}gallerythumb4.jpg" alt="" title="" border="0" class="thumb" />
+        <span class="portfolio_caption">
+        <a href="{{ IMAGES_CDN }}slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="{{ IMAGES_CDN }}zoom.png" alt="" title="" border="0" /></a>
+        <a href="#"><img src="{{ IMAGES_CDN }}like.png" alt="" title="" border="0" /></a>
+        </span>  
+        <h3>Happiness is a way of travel</h3>
+        </li>
+        
+        <li class="gallery13 honeymoon" data-id="id-5">
+        <img src="{{ IMAGES_CDN }}gallery_frame.png" alt="" title="" border="0" class="frame" />
+        <img src="{{ IMAGES_CDN }}gallerythumb5.jpg" alt="" title="" border="0" class="thumb" />
+        <span class="portfolio_caption">
+        <a href="{{ IMAGES_CDN }}slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="{{ IMAGES_CDN }}zoom.png" alt="" title="" border="0" /></a>
+        <a href="#"><img src="{{ IMAGES_CDN }}like.png" alt="" title="" border="0" /></a>
+        </span>  
+        <h3>Your hands your hearts</h3>
+        </li>
+        
+        <li class="gallery13 honeymoon" data-id="id-6">
+        <img src="{{ IMAGES_CDN }}gallery_frame.png" alt="" title="" border="0" class="frame" />
+        <img src="{{ IMAGES_CDN }}gallerythumb6.jpg" alt="" title="" border="0" class="thumb" />
+        <span class="portfolio_caption">
+        <a href="{{ IMAGES_CDN }}slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="{{ IMAGES_CDN }}zoom.png" alt="" title="" border="0" /></a>
+        <a href="#"><img src="{{ IMAGES_CDN }}like.png" alt="" title="" border="0" /></a>
+        </span>  
+        <h3>Happiness is a way of travel</h3>
+        </li>
+        
+        <li class="gallery13 groomsmens" data-id="id-7">
+        <img src="{{ IMAGES_CDN }}gallery_frame.png" alt="" title="" border="0" class="frame" />
+        <img src="{{ IMAGES_CDN }}gallerythumb7.jpg" alt="" title="" border="0" class="thumb" />
+        <span class="portfolio_caption">
+        <a href="{{ IMAGES_CDN }}slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="{{ IMAGES_CDN }}zoom.png" alt="" title="" border="0" /></a>
+        <a href="#"><img src="{{ IMAGES_CDN }}like.png" alt="" title="" border="0" /></a>
+        </span>  
+        <h3>Two hearts that beats</h3>
+        </li>
+        
+        <li class="gallery13 wedding" data-id="id-8">
+        <img src="{{ IMAGES_CDN }}gallery_frame.png" alt="" title="" border="0" class="frame" />
+        <img src="{{ IMAGES_CDN }}gallerythumb8.jpg" alt="" title="" border="0" class="thumb" />
+        <span class="portfolio_caption">
+        <a href="{{ IMAGES_CDN }}slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="{{ IMAGES_CDN }}zoom.png" alt="" title="" border="0" /></a>
+        <a href="#"><img src="{{ IMAGES_CDN }}like.png" alt="" title="" border="0" /></a>
+        </span>  
+        <h3>Happiness is a way of travel</h3>
+        </li>
+        <li class="gallery13 groomsmens" data-id="id-9">
+        <img src="{{ IMAGES_CDN }}gallery_frame.png" alt="" title="" border="0" class="frame" />
+        <img src="{{ IMAGES_CDN }}gallerythumb9.jpg" alt="" title="" border="0" class="thumb" />
+        <span class="portfolio_caption">
+        <a href="{{ IMAGES_CDN }}slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="{{ IMAGES_CDN }}zoom.png" alt="" title="" border="0" /></a>
+        <a href="#"><img src="{{ IMAGES_CDN }}like.png" alt="" title="" border="0" /></a>
+        </span>  
+        <h3>Your hands your hearts</h3>
+        </li>
+    
+    </ul>
+       
+   </div>
+   
+   <div class="clear"></div> 
+   
+</div>
+
+</div>
+</div>
+
+   
+   <div class="footer">
+       <div class="footer_content">
+       <div class="footer_text">
+       John & Melany | ©2012 johngag.com
+       </div>
+       <div class="footer_menu">
+           <ul>
+               <li><a href="/">Home</a></li>
+               <li><a href="/wedding/">Our wedding</a></li>
+               <li><a class="selected" href="/gallery/">Photo Album</a></li>
+               <li><a href="/contact/">Contact</a></li>
+               <li><a onclick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );"  href="javascript:void(0);" class="gotop" title="Go on top">TOP</a> </li>
+           </ul>
+       </div>
+       <div class="clear"></div>
+       </div>
+       
+   </div>
+
+<script type="text/javascript">
+var main_menu=new main_menu.dd("main_menu");
+main_menu.init("main_menu","menuhover");
+</script>
+</body>
+</html>
